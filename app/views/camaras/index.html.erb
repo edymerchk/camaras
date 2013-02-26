@@ -1,2 +1,13 @@
-<h1>Camaras#index</h1>
-<p>Find me in app/views/camaras/index.html.erb</p>
+<%= render 'actual' %>
+
+
+<h1>Listado de camaras</h1>
+<table id="results" class="table table-bordered table-hover">
+  <tr>
+    <th>Direccion</th>
+    <th>Sector</th>
+    <th></th>
+  </tr>
+   <%= render @camaras %>
+
+</table>

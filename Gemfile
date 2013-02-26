@@ -6,6 +6,7 @@ gem 'rails', '3.2.12'
 gem 'thin' #server
 gem 'quiet_assets' #fix assets msgs
 gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 2.3.0.0'
 
 
 # Gems used only for assets and not required

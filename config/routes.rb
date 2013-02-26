@@ -1,7 +1,9 @@
 Camaras::Application.routes.draw do
-  get "camaras/index"
 
-  get "camaras/show"
+
+  match "/camaras/:id" => "camaras#show", :via => :get, :as => "camara"
+
+  root :to => "camaras#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
