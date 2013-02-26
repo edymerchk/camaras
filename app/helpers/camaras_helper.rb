@@ -1,0 +1,2 @@
+module CamarasHelper
+end
