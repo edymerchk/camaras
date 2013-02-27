@@ -2,7 +2,7 @@ class CamarasController < ApplicationController
 	respond_to :html, :json, :js 
   def index
   	@camaras = Camara.all
-  	@camara = Camara.last # change to rnd
+  	@camara = Camara.offset(rand(Camara.count)).first  
   end
 
   def show
