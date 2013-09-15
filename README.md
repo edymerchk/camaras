@@ -1,4 +1,4 @@
-#Camaras de Medellin
+#Camaras de Medellín
 
 Esta sencilla aplicacion muestra el estado de las vias haciendo uso de las camaras de La Secretaría de Transportes y Tránsito de Medellin.
 
