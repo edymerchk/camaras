@@ -6,7 +6,7 @@ gem 'rails', '3.2.12'
 gem 'thin' #server
 gem 'quiet_assets' #fix assets msgs
 gem 'jquery-rails'
-gem 'bootstrap-sass', '~> 2.3.0.0'
+gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'coffee-script'
 gem 'will_paginate', '~> 3.0'
 
