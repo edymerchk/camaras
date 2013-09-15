@@ -7,6 +7,7 @@ gem 'thin' #server
 gem 'quiet_assets' #fix assets msgs
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.0.0'
+gem 'coffee-script'
 
 
 # Gems used only for assets and not required
