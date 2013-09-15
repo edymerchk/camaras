@@ -1,0 +1,7 @@
+$(".camaras").append("<%=escape_javascript(render partial: 'camaras/camaras')%>"
+);
+$("a.load-more-camaras").attr("href", "<%=camaras_path page: @camaras.next_page%>");
+ 
+<% unless @camaras.next_page %>
+  $("a.load-more-camaras").remove();
+<% end %>

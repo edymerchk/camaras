@@ -1,8 +1,12 @@
 class CamarasController < ApplicationController
 	respond_to :html, :json, :js 
   def index
+    puts "entra con #{params[:page]}"
   	@camaras = Camara.paginate(:page => params[:page])
-  	# @camara = Camara.offset(rand(Camara.count)).first  
+    respond_to do |format|
+      format.html
+      format.js
+    end 
   end
 
   def show

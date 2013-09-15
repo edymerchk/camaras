@@ -11,6 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery.inview.min.js
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
