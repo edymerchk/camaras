@@ -1,13 +1,13 @@
-<%= render 'actual' %>
 
-
-<h1>Listado de camaras</h1>
-<table id="results" class="table table-bordered table-hover">
-  <tr>
-    <th>Direccion</th>
-    <th>Sector</th>
-    <th></th>
-  </tr>
-   <%= render @camaras %>
-
-</table>
+<div id="results" class="span12">
+  <div class="row-fluid">
+  <%@camaras.each do |camara| %>
+  <div class="span4 camara-thumbnail">
+    <div id="imagen"><%= image_tag(camara.link, size:"250X120") %></div>
+    <div id="sector"><%= camara.sector %></div>
+    <div id="direccion"><%= camara.direccion %></div>
+   
+  </div>
+  <% end %>
+  </div>
+</div>

@@ -8,6 +8,7 @@ gem 'quiet_assets' #fix assets msgs
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.0.0'
 gem 'coffee-script'
+gem 'will_paginate', '~> 3.0'
 
 
 # Gems used only for assets and not required
