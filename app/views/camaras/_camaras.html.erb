@@ -1,9 +1,9 @@
   <div class="row-fluid">
   <%@camaras.each do |camara| %>
   <div class="span4 camara-thumbnail">
-    <div class="imagen"><%= image_tag(camara.link, size:"250X120", class: "img-rounded") %></div>
-    <div class="sector"><%= camara.sector.truncate(35, separator: ' ') %></div>
-   
+    <div ><%=link_to image_tag(camara.link, size:"250X120", class: "img-rounded"), camara, class: "camara_link" %></div>
+    <div class="sector"><%= camara.sector.truncate(40) %></div>
   </div>
   <% end %>
   </div>
+

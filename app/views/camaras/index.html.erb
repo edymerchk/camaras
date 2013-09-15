@@ -4,3 +4,6 @@
 </div>
 
 <%= link_to 'Load More camaras', camaras_path(:page => @camaras.next_page), :class => 'load-more-camaras', :remote => true if @camaras.next_page %>
+
+
+<%= render :partial => 'camaras/modal' %>
