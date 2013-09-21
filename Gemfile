@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 
 
 gem 'thin' #server
@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'coffee-script'
 gem 'will_paginate', '~> 3.0'
+gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -21,9 +22,8 @@ end
 
 
 
-group :production do
-	gem 'pg'
-end
+	
+
 
 
 group :development, :test do
