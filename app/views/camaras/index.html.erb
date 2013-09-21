@@ -1,3 +1,9 @@
+<%= form_tag("/search", method: :get, class: "form-search") do %>
+
+<%= text_field_tag :q, params[:q], placeholder: 'Avenida...', class: "input-medium search-query"  %>
+
+<%= submit_tag "Buscar", class: "btn btn-info" %>
+<% end %>
 
 <div class="camaras" class="span12">
   <%= render :partial => 'camaras/camaras' %>
