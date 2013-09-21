@@ -4,6 +4,7 @@ describe CamarasController do
 
   context "basics" do
     let(:camara) {create(:camara)}
+    let(:camara_33) {create(:camara_33)}
     describe 'GET #index' do
 
       it "returns the list of the camaras" do       
@@ -13,6 +14,14 @@ describe CamarasController do
       it "renders the :index template" do
         get :index
         expect(response).to render_template :index
+      end
+      it "query the list of the camaras matching q parameter" do       
+        get :index, q: "La 33"
+        expect(assigns(:camaras)).to include camara_33  
+      end
+       it "query the list of the camaras matching q parameter" do       
+        get :index, q: "La 33"
+        expect(assigns(:camaras)).to_not include camara 
       end
     end
     describe 'GET #show' do
