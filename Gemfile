@@ -10,7 +10,7 @@ gem 'turbolinks'
 gem 'coffee-script'
 gem 'will_paginate', '~> 3.0.5'
 gem 'pg'
-
+gem 'coveralls', require: false
 
 # Gems used only for assets and not required
 # in production environments by default.

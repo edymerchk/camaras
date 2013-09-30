@@ -1,5 +1,6 @@
 #Cámaras de Medellín
 [![Build Status](https://travis-ci.org/edymerchk/camaras.png?branch=master)](https://travis-ci.org/edymerchk/camaras)
+[![Coverage Status](https://coveralls.io/repos/edymerchk/camaras/badge.png)](https://coveralls.io/r/edymerchk/camaras)
 
 Esta sencilla aplicación muestra el estado de las vías haciendo uso de las cámaras de _La Secretaría de Transportes y Tránsito de Medellín_.
 
