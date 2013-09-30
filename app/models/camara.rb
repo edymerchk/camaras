@@ -1,7 +1,7 @@
 class Camara < ActiveRecord::Base
   
-  validates :sector, presence: true
-  validates :direccion, presence: true
+  validates_presence_of :direccion, :sector
+
   validates :link, presence: true, format: URI::regexp(%w(http https))
   self.per_page = 9
 
