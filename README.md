@@ -1,15 +1,22 @@
-#Camaras de Medellín
+#Cámaras de Medellín
+[![Build Status](https://travis-ci.org/edymerchk/camaras.png?branch=master)](https://travis-ci.org/edymerchk/camaras)
 
-Esta sencilla aplicacion muestra el estado de las vias haciendo uso de las camaras de La Secretaría de Transportes y Tránsito de Medellin.
+Esta sencilla aplicación muestra el estado de las vías haciendo uso de las cámaras de _La Secretaría de Transportes y Tránsito de Medellín_.
 
 
-Esta aplicacion es de libre distribucion y sin animo de lucro.
+Esta aplicación es de libre distribución y sin ánimo de lucro.
 
-online version: [link](http://camaras-medellin.herokuapp.com/)
+Versión online: [link](http://camaras-medellin.herokuapp.com/)
 
+###Autor
+[Luis Edimerchk Laverde](http://twitter.com/edymerchk)
+
+###Colaboradores
+
+[Esteban Arango Medina](http://esbanarango.com/)
 
 ###Contacto 
 
-Si tienes algun comentario, consejo, duda, insulto etc acerca de esta aplicacion, no dudes en escribirme
+Si tiene algún comentario, consejo o duda acerca de esta aplicación, no dude en escribirme.
 
-[Luis Edimerchk Laverde](http://twitter.com/edymerchk).
+edyhack@gmail.com
