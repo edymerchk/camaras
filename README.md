@@ -20,4 +20,4 @@ Versión online: [link](http://camaras-medellin.herokuapp.com/)
 
 Si tiene algún comentario, consejo o duda acerca de esta aplicación, no dude en escribirme.
 
-edyhack@gmail.com
+edyhack at gmail.com
