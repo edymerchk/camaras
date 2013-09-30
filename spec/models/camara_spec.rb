@@ -10,6 +10,9 @@ describe Camara do
   context "validations" do 
     let(:camara) {build(:camara)}
 
+    it { should validate_presence_of(:direccion) }
+    it { should validate_presence_of(:sector) }
+
     [:link, :sector, :direccion].each do |field|
        it "validates #{field} presence" do
         camara.send("#{field}=", nil)
