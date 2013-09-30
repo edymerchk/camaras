@@ -23,6 +23,7 @@ group :development do
   gem 'better_errors'
   gem 'guard-rspec'
   gem 'quiet_assets'
+  gem 'annotate'
 end
 	
 
