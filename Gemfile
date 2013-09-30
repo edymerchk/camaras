@@ -19,9 +19,6 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 
 
-# Temp
-gem 'protected_attributes'
-
 group :development do
   gem 'better_errors'
   gem 'guard-rspec'

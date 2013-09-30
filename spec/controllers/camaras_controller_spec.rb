@@ -27,7 +27,7 @@ describe CamarasController do
     describe 'GET #show' do
 
       it "return a camara in json format and 200 status" do       
-        get :show, id: camara
+        get :show, id: camara, format: :json
         expect(response.status).to eq(200)
         expect(response.body).to have_content camara.to_json
       end

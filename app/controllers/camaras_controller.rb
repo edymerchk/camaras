@@ -1,15 +1,12 @@
 class CamarasController < ApplicationController
 	respond_to :html, :json, :js 
   def index
-    @camaras = Camara.search(params[:q]).paginate(:page => params[:page])
-    respond_to do |format|
-      format.html
-      format.js
-    end 
+    @camaras = Camara.search(params[:q]).paginate(page: params[:page])
+    respond_with(@camaras)
   end
 
   def show
   	@camara = Camara.find(params[:id])
-  	render json: @camara	  	
+    respond_with(@camara)	  	
   end
 end
