@@ -21,3 +21,7 @@ Versión online: [link](http://camaras-medellin.herokuapp.com/)
 Si tiene algún comentario, consejo o duda acerca de esta aplicación, no dude en escribirme.
 
 edyhack at gmail.com
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/edymerchk/camaras/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
