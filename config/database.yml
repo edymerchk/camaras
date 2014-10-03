@@ -4,8 +4,6 @@ development:
   database: camaras_dev
   pool: 5
   timeout: 5000
-  username: postgres
-  password: root
 
 
 test:
@@ -13,6 +11,4 @@ test:
   database: camaras_test
   pool: 5
   timeout: 5000
-  username: postgres
-  password: root
 

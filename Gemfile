@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.1'
 gem 'rails', '~> 4.0.0'
 
 
@@ -25,7 +25,7 @@ group :development do
   gem 'quiet_assets'
   gem 'annotate'
 end
-	
+
 
 
 
@@ -35,11 +35,11 @@ group :development, :test do
 end
 
 
-group :test do	
+group :test do
 	gem "capybara", "~> 1.1.2"
 	gem "database_cleaner", "~> 0.7.2"
   gem "shoulda-matchers"
-end 
+end
 
 
 
